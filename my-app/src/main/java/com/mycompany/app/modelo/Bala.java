@@ -39,7 +39,7 @@ public class Bala {
 	}
 	
 	public void dibujar() {
-		 this.entorno.dibujarImagen(Herramientas.cargarImagen("imagen/bala00Derecha.png"), this.x, this.y, 0);
+		 this.entorno.dibujarImagen(Herramientas.cargarImagen("bala00Derecha.png"), this.x, this.y, 0);//("imagen/bala00Derecha.png"), this.x, this.y, 0);
 	}
 	
 	public double getOrientacion() {
