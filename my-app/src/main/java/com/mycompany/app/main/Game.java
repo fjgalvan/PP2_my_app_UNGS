@@ -15,7 +15,7 @@ public class Game extends InterfaceJuego {
     private Entorno entorno;
     private Tanque tanque;
     private Disparo disparo;
-	private Image fondo = Herramientas.cargarImagen("fondo.jpg");//("imagen/fondo.jpg");
+	private Image fondo = Herramientas.cargarImagen("imagen/fondo.jpg");
     private Bala bala;
     private boolean tiro=false;
     //C:\Users\Usuario\git\local_PP2_my_app_UNGS\my-app\src\main\java\imagen\fondo.jpg
